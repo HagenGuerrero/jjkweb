@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jujutsu Kaisen</title>
+    <link rel="stylesheet" href="../css/styles.css" />
+  </head>
+  <body>
+    <!-- Encabezado principal de la página -->
+    <header class="main-header">
+      <h1>Personajes de Jujutsu Kaisen</h1>
+      <img
+        src="../img/Jujutsu_Kaisen_(Japanese)_logo.svg"
+        alt="Jujutsu Kaisen Logo"
+      />
+    </header>
+
+    <!-- Contenedor para la cuadrícula de personajes. Se usan dos para el diseño visual. -->
+    <div class="container">
+      <!-- Cada 'img-box' representa a un personaje en la cuadrícula. -->
+      <!-- El 'data-character' es un identificador único para cargar la información desde JS. -->
+      <div
+        class="img-box"
+        style="--img: url(../img/sukuna.webp)"
+        data-character="sukuna"
+      ></div>
+      <div
+        class="img-box"
+        style="--img: url(../img/gojo.webp)"
+        data-character="gojo"
+      ></div>
+      <div
+        class="img-box"
+        style="--img: url(../img/itadori.webp)"
+        data-character="itadori"
+      ></div>
+      <div
+        class="img-box"
+        style="--img: url(../img/megumi.webp)"
+        data-character="megumi"
+      ></div>
+      <div
+        class="img-box"
+        style="--img: url(../img/nobara.webp)"
+        data-character="nobara"
+      ></div>
+      <div
+        class="img-box"
+        style="--img: url(../img/yuta.webp)"
+        data-character="yuta"
+      ></div>
+    </div>
+    <div class="container">
+      <div
+        class="img-box"
+        style="--img: url(../img/maki.webp)"
+        data-character="maki"
+      ></div>
+      <div
+        class="img-box"
+        style="--img: url(../img/toji.webp)"
+        data-character="toji"
+      ></div>
+      <div
+        class="img-box"
+        style="--img: url(../img/todo.webp)"
+        data-character="todo"
+      ></div>
+      <div
+        class="img-box"
+        style="--img: url(../img/choso.webp)"
+        data-character="choso"
+      ></div>
+      <div
+        class="img-box"
+        style="--img: url(../img/geto.webp)"
+        data-character="geto"
+      ></div>
+    </div>
+
+    <!-- Vista de Detalles del Personaje -->
+    <!-- Esta sección está oculta por defecto y se muestra al hacer clic en un personaje. -->
+    <div id="character-view">
+      <!-- Botón para cerrar la vista de detalles -->
+      <span class="character-view-close">&times;</span>
+      <div class="character-content">
+        <!-- Contenedor principal para la información del personaje -->
+        <div class="character-header">
+          <img src="" alt="Character PFP" class="character-pfp" />
+          <div class="character-title">
+            <h2>Nombre del Personaje</h2>
+            <p class="character-epithet"></p>
+          </div>
+        </div>
+        <!-- Secciones de información que serán llenadas dinámicamente con JavaScript -->
+        <div class="character-section description">
+          <h3>Descripción</h3>
+          <p></p>
+        </div>
+        <div class="character-section abilities">
+          <h3>Habilidades</h3>
+          <ul></ul>
+        </div>
+        <div class="character-section domain-expansion">
+          <h3>Expansión de Dominio</h3>
+          <p></p>
+        </div>
+        <div class="character-section curiosities">
+          <h3>Curiosidades</h3>
+          <p></p>
+        </div>
+        <div class="character-section secondary-gallery">
+          <h3>Galería</h3>
+          <div class="gallery-images">
+            <!-- Images will be injected here by JS -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Enlace al archivo JavaScript principal -->
+    <script src="../js/main.js"></script>
+  </body>
+</html>
