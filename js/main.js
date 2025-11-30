@@ -252,6 +252,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const pfpRect = pfp.getBoundingClientRect();
     const targetRect = targetBox.getBoundingClientRect();
 
+    // Oculta la imagen de destino en la cuadrícula para que no aparezca antes de tiempo.
+    targetBox.style.opacity = '0';
+
     // 1. Inicia el desvanecimiento del contenido de texto.
     content.classList.remove('reveal');
 
@@ -291,6 +294,8 @@ document.addEventListener('DOMContentLoaded', () => {
         characterView.classList.remove('active');
         body.classList.remove('no-scroll');
         clone.remove();
+        // Muestra la imagen de la cuadrícula una vez que la animación ha terminado.
+        targetBox.style.opacity = '1';
       },
       { once: true }
     );
@@ -380,6 +385,9 @@ document.addEventListener('DOMContentLoaded', () => {
     // 3. Muestra la vista de detalles (el contenido aún es transparente).
     characterView.classList.add('active');
     body.classList.add('no-scroll');
+    // Oculta la PFP real para que no aparezca antes de que termine la animación del clon.
+    pfp.style.opacity = '0';
+
     // Reinicia el estado de la animación del contenido para la animación de entrada.
     const content = characterView.querySelector('.character-content');
     content.classList.remove('reveal');
@@ -406,6 +414,8 @@ document.addEventListener('DOMContentLoaded', () => {
       'transitionend',
       () => {
         clone.remove();
+        // Muestra la PFP real una vez que la animación ha terminado.
+        pfp.style.opacity = '1';
       },
       { once: true }
     );
@@ -413,7 +423,10 @@ document.addEventListener('DOMContentLoaded', () => {
     // Medida de seguridad para eliminar el clon si el evento 'transitionend' no se dispara.
     setTimeout(
       () => {
-        if (document.body.contains(clone)) clone.remove();
+        if (document.body.contains(clone)) {
+          clone.remove();
+          pfp.style.opacity = '1';
+        }
       },
       1000 // Un tiempo ligeramente mayor que la duración de la transición.
     );
