@@ -2,7 +2,7 @@
 const characterData = {
   sukuna: {
     name: 'Ryomen Sukuna',
-    mainImg: '../img/sukuna.webp',
+    mainImg: './img/sukuna.webp',
     epithet: 'El Rey de las Maldiciones',
     description: 'Considerado el indiscutible Rey de las Maldiciones, Sukuna es un espíritu maldito legendario e inmensamente poderoso. Yuji Itadori se convierte en su recipiente después de consumir uno de sus dedos. Sukuna es sádico, arrogante y excepcionalmente inteligente, con una profunda comprensión del jujutsu.',
     abilities: [
@@ -14,14 +14,14 @@ const characterData = {
     domainExpansion: '<strong>Santuario Malévolo (伏魔御廚子, Fukuma Mizushi):</strong> Un Dominio único que no crea un espacio separado con una barrera. Tiene un alcance efectivo masivo y corta implacablemente todo lo que está dentro hasta que no queda nada.',
     curiosities: 'Sukuna tiene un gran interés en el potencial de Megumi Fushiguro y su Técnica de Diez Sombras. Es el hechicero más poderoso de la historia, de la era Heian.',
     gallery: [
-      '../img/sukuna_2.webp',
-      '../img/sukuna_3.webp',
-      '../img/sukuna_4.webp',
+      './img/sukuna_2.webp',
+      './img/sukuna_3.webp',
+      './img/sukuna_4.webp',
     ],
   },
   gojo: {
     name: 'Satoru Gojo',
-    mainImg: '../img/gojo.webp',
+    mainImg: './img/gojo.webp',
     epithet: 'El Más Fuerte',
     description: 'Reconocido como el hechicero de jujutsu más fuerte del mundo, Satoru Gojo es un hechicero de grado especial y profesor en la Preparatoria de Jujutsu de Tokio. Confía en sus habilidades, pero debajo de su exterior juguetón y despreocupado, se preocupa profundamente por sus estudiantes.',
     abilities: [
@@ -33,14 +33,14 @@ const characterData = {
     domainExpansion: '<strong>Vacío Infinito (無量空処, Muryōkūsho):</strong> La Expansión de Dominio de Gojo inunda la mente de la víctima con una cantidad infinita de información cruda, paralizándola al instante.',
     curiosities: 'Gojo es un notorio amante de los dulces y a menudo se le ve comiendo postres. A pesar de su inmenso poder, tiene un profundo desdén por los altos mandos del mundo del jujutsu.',
     gallery: [
-      '../img/gojo_2.webp',
-      '../img/gojo_3.webp',
-      '../img/gojo_4.webp',
+      './img/gojo_2.webp',
+      './img/gojo_3.webp',
+      './img/gojo_4.webp',
     ],
   },
   itadori: {
     name: 'Yuji Itadori',
-    mainImg: '../img/itadori.webp',
+    mainImg: './img/itadori.webp',
     epithet: 'El Recipiente de Sukuna',
     description: 'Un estudiante de preparatoria de buen corazón que se convierte en el recipiente de Ryomen Sukuna después de comer uno de sus dedos malditos para salvar a sus amigos. Se une a la Preparatoria de Jujutsu de Tokio para encontrar y consumir todos los dedos de Sukuna y exorcizar la maldición de una vez por todas.',
     abilities: [
@@ -51,13 +51,13 @@ const characterData = {
     domainExpansion: null,
     curiosities: 'Yuji es un gran fan de Jennifer Lawrence. Tiene un código personal de asegurarse de que las personas tengan una "muerte digna".',
     gallery: [
-      '../img/itadori_2.webp',
-      '../img/itadori_3.webp',
+      './img/itadori_2.webp',
+      './img/itadori_3.webp',
     ],
   },
   megumi: {
     name: 'Megumi Fushiguro',
-    mainImg: '../img/megumi.webp',
+    mainImg: './img/megumi.webp',
     epithet: 'El Usuario de las Diez Sombras',
     description: 'Un hechicero de jujutsu de grado 2 y estudiante de primer año en la Preparatoria de Jujutsu de Tokio. Como descendiente de la familia Zenin, heredó la preciada Técnica de Diez Sombras del clan. Megumi es estoico y calculador, deseando ayudar a las personas que considera buenas o amables.',
     abilities: [
@@ -69,13 +69,13 @@ const characterData = {
     domainExpansion: '<strong>Jardín de Sombras Quimera (嵌合暗翳庭, Kangō An\'eitei):</strong> Un dominio lleno de líquido que le permite a Megumi invocar múltiples shikigamis y manipular sombras a gran escala.',
     curiosities: 'Es el hijo de Toji Fushiguro, el "Asesino de Hechiceros". Sukuna ha tomado un interés especial en el potencial de Megumi.',
     gallery: [
-      '../img/megumi_2.webp',
-      '../img/megumi_3.webp',
+      './img/megumi_2.webp',
+      './img/megumi_3.webp',
     ],
   },
   nobara: {
     name: 'Nobara Kugisaki',
-    mainImg: '../img/nobara.webp',
+    mainImg: './img/nobara.webp',
     epithet: 'La Hechicera del Muñeco de Paja',
     description: 'Una hechicera de jujutsu de grado 3 y estudiante de primer año en la Preparatoria de Jujutsu de Tokio. Nobara es una joven segura de sí misma y audaz con una convicción inquebrantable. Vino a Tokio para escapar de su vida rural y vivir fiel a sí misma.',
     abilities: [
@@ -86,13 +86,13 @@ const characterData = {
     domainExpansion: null,
     curiosities: 'Nobara tiene un profundo amor por las compras y todo lo que la gran ciudad de Tokio tiene para ofrecer. Siente un inmenso respeto por Maki Zenin.',
     gallery: [
-      '../img/nobara_2.webp',
-      '../img/nobara_3.webp',
+      './img/nobara_2.webp',
+      './img/nobara_3.webp',
     ],
   },
   yuta: {
     name: 'Yuta Okkotsu',
-    mainImg: '../img/yuta.webp',
+    mainImg: './img/yuta.webp',
     epithet: 'El Niño Maldito',
     description: 'El protagonista de la precuela, Jujutsu Kaisen 0. Yuta es uno de los cuatro únicos hechiceros de grado especial. Una vez fue atormentado por el espíritu maldito de su amiga de la infancia, Rika Orimoto. Es humilde y amable, pero un oponente aterrador cuando se enoja.',
     abilities: [
@@ -104,13 +104,13 @@ const characterData = {
     domainExpansion: '<strong>Amor Mutuo y Verdadero:</strong> La Expansión de Dominio de Yuta. Sus efectos completos son actualmente desconocidos, pero es increíblemente poderosa.',
     curiosities: 'Es un pariente lejano del clan Gojo. Pasó varios años en el extranjero después de los eventos de JJK 0, entrenando en África.',
     gallery: [
-      '../img/yuta_2.webp',
-      '../img/yuta_3.webp',
+      './img/yuta_2.webp',
+      './img/yuta_3.webp',
     ],
   },
   maki: {
     name: 'Maki Zen\'in',
-    mainImg: '../img/maki.webp',
+    mainImg: './img/maki.webp',
     epithet: 'La Maestra de las Herramientas',
     description: 'Una estudiante de la Preparatoria de Jujutsu de Tokio que nació en el clan de élite Zenin pero con muy poca energía maldita. Compensa esto con una destreza física sobrehumana debido a una Restricción Celestial, lo que la convierte en una maestra de las herramientas malditas.',
     abilities: [
@@ -121,13 +121,13 @@ const characterData = {
     domainExpansion: null,
     curiosities: 'Maki tiene una hermana gemela, Mai, cuya existencia fue parte de lo que frenó su Restricción Celestial. Su objetivo es convertirse en la líder del clan Zenin a pesar de ser marginada por ellos.',
     gallery: [
-      '../img/maki_2.webp',
-      '../img/maki_3.webp',
+      './img/maki_2.webp',
+      './img/maki_3.webp',
     ],
   },
   toji: {
     name: 'Toji Fushiguro',
-    mainImg: '../img/toji.webp',
+    mainImg: './img/toji.webp',
     epithet: 'El Asesino de Hechiceros',
     description: 'Conocido como el "Asesino de Hechiceros", Toji fue un exmiembro del clan Zenin que no poseía energía maldita en absoluto. Esta Restricción Celestial le otorgó habilidades físicas sobrehumanas, permitiéndole rivalizar e incluso derrotar a hechiceros de grado especial.',
     abilities: [
@@ -138,13 +138,13 @@ const characterData = {
     domainExpansion: null,
     curiosities: 'Toji es el padre de Megumi Fushiguro. Abandonó el mundo del jujutsu y a su familia, solo para regresar como mercenario.',
     gallery: [
-      '../img/toji_2.webp',
-      '../img/toji_3.webp',
+      './img/toji_2.webp',
+      './img/toji_3.webp',
     ],
   },
   todo: {
     name: 'Aoi Todo',
-    mainImg: '../img/todo.webp',
+    mainImg: './img/todo.webp',
     epithet: 'El Maestro del Boogie Woogie',
     description: 'Un estudiante de tercer año de la Preparatoria de Jujutsu de Kioto y un hechicero de jujutsu de grado 1. Es excepcionalmente fuerte y tiene una personalidad excéntrica. Juzga a los hombres por su gusto en las mujeres y rápidamente se hace amigo de Yuji Itadori, considerándolo su "mejor amigo". A pesar de su comportamiento bullicioso y aparentemente brutal, es un estratega brillante y un luchador poderoso. [1, 2, 4]',
     abilities: [
@@ -156,13 +156,13 @@ const characterData = {
     domainExpansion: null,
     curiosities: 'Es un gran fan de la idol Nobuko Takada (Takada-chan) y a menudo imagina escenarios que la involucran. [1, 8] Tiene una cicatriz en la cara de su entrenamiento con Yuki Tsukumo. [1] Afirma tener un coeficiente intelectual de 530,000. [1]',
     gallery: [
-      '../img/todo_2.webp',
-      '../img/todo_3.webp',
+      './img/todo_2.webp',
+      './img/todo_3.webp',
     ],
   },
   choso: {
     name: 'Choso',
-    mainImg: '../img/choso.webp',
+    mainImg: './img/choso.webp',
     epithet: 'Pintura de la Muerte',
     description: 'El mayor de las Pinturas de la Muerte del Vientre Maldito, Choso es un espíritu maldito de grado especial que considera a Yuji Itadori su hermano menor debido a una conexión de sangre compartida a través de Kenjaku. Es un luchador tranquilo y analítico.',
     abilities: [
@@ -173,13 +173,13 @@ const characterData = {
     domainExpansion: null,
     curiosities: 'Como una Pintura de la Muerte, tiene tres padres: una madre humana, un padre espíritu maldito y Kenjaku. Experimenta falsos recuerdos de Yuji, lo que lo convence de que son hermanos.',
     gallery: [
-      '../img/choso_2.webp',
-      '../img/choso_3.webp',
+      './img/choso_2.webp',
+      './img/choso_3.webp',
     ],
   },
   geto: {
     name: 'Suguru Geto',
-    mainImg: '../img/geto.webp',
+    mainImg: './img/geto.webp',
     epithet: 'El Peor Usuario de Maldiciones',
     description: 'Un ex hechicero de grado especial y compañero de clase de Satoru Gojo. Geto desarrolló un profundo odio por los no hechiceros, a quienes llamaba "monos", lo que lo llevó a convertirse en un usuario de maldiciones con el objetivo de crear un mundo solo para hechiceros. Es el principal antagonista de la precuela, Jujutsu Kaisen 0.',
     abilities: [
@@ -191,8 +191,8 @@ const characterData = {
     domainExpansion: null,
     curiosities: 'Fue el mejor amigo de Satoru Gojo durante sus días de estudiante. Su cuerpo fue poseído por el antiguo hechicero Kenjaku después de su muerte a manos de Gojo.',
     gallery: [
-      '../img/geto_2.webp',
-      '../img/geto_3.webp',
+      './img/geto_2.webp',
+      './img/geto_3.webp',
     ],
   },
 };

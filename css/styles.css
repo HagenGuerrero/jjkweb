@@ -6,7 +6,7 @@ body {
 
   /* Configuración del fondo */
   background: linear-gradient(rgba(17, 17, 17, 0.85), rgba(17, 17, 17, 0.85)),
-    url("../img/wpp.jpg");
+    url("./img/wpp.jpg");
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
