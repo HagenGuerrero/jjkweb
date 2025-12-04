@@ -1,17 +1,22 @@
+/* --- Variables de Color y Tema --- */
+:root {
+  --primary-color: #e50914; /* Rojo JJK */
+  --background-color: #101010; /* Negro suave */
+  --surface-color: #1a1a1a; /* Color para superficies como tarjetas */
+  --text-color: #f0f0f0; /* Blanco roto para texto principal */
+  --text-color-secondary: #a0a0a0; /* Gris para texto secundario */
+  --border-color: rgba(255, 255, 255, 0.1);
+}
+
 /* --- Estilos Generales y Fondo --- */
 body {
   padding-top: 56px; /* Ajuste para la barra de navegación fija de Bootstrap */
   position: relative;
   overflow-x: hidden;
-  color: #eee;
+  color: var(--text-color);
 
   /* Configuración del fondo */
-  background: linear-gradient(rgba(17, 17, 17, 0.85), rgba(17, 17, 17, 0.85)),
-    url("../img/wpp.jpg");
-  background-size: cover;
-  background-position: center center;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
+  background-color: var(--background-color);
 }
 
 /* Clase para evitar el scroll en el body cuando la vista de detalle está activa */
@@ -28,7 +33,13 @@ body {
 .main-header h1 {
   font-size: 3.5rem;
   margin-bottom: 20px;
-  color: #f5f5f5;
+  color: var(--text-color);
+}
+
+/* Estilo para el logo en el encabezado principal */
+.main-header img {
+  max-width: 300px; /* Reduce el tamaño máximo del logo */
+  height: auto;
 }
 
 /* --- Transiciones de Desvanecimiento (Fade) --- */
@@ -58,7 +69,7 @@ body {
 
 .img-box {
   background: var(--img) center;
-  background-color: #111;
+  background-color: var(--background-color);
   background-size: cover;
   height: 400px;
   flex-basis: 300px;
@@ -77,7 +88,7 @@ body {
   left: 0;
   width: 100%;
   padding: 20px 15px;
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.9), transparent);
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.95), transparent);
   color: white;
   font-size: 1.5rem;
   font-weight: bold;
@@ -130,7 +141,7 @@ body {
   top: 20px;
   right: 30px;
   font-size: 50px;
-  color: white;
+  color: var(--text-color);
   cursor: pointer;
   transition: transform 300ms ease;
   z-index: 10;
@@ -160,7 +171,7 @@ body {
   display: flex;
   align-items: center;
   gap: 30px;
-  border-bottom: 3px solid #e50914;
+  border-bottom: 3px solid var(--primary-color);
   padding-bottom: 20px;
   margin-bottom: 30px;
 }
@@ -171,7 +182,7 @@ body {
   height: 150px;
   object-fit: cover;
   border-radius: 50%;
-  border: 4px solid #f5f5f5;
+  border: 4px solid var(--text-color);
   filter: grayscale(80%);
   flex-shrink: 0; /* Evita que la imagen se encoja */
   /* Oculta la PFP real hasta que el contenido se revele para una transición suave */
@@ -196,7 +207,7 @@ body {
 /* Epíteto del personaje (ej. "El Rey de las Maldiciones") */
 .character-epithet {
   font-size: 1.5rem;
-  color: #e50914;
+  color: var(--primary-color);
   font-weight: bold;
   margin: 5px 0 0 0;
   font-family: "Courier New", Courier, monospace;
@@ -227,14 +238,15 @@ body {
 .character-section h3 {
   font-size: 2rem;
   margin-bottom: 15px;
-  color: #f5f5f5;
+  color: var(--text-color);
 }
 
 .character-section p,
 .character-section ul {
   font-size: 1.1rem;
   line-height: 1.6;
-  color: #ccc;
+  color: var(--text-color-secondary);
+  text-align: justify;
 }
 
 /* Estilos para la lista de habilidades */
@@ -244,11 +256,26 @@ body {
 }
 
 .abilities li {
-  background-color: rgba(255, 255, 255, 0.05);
+  background-color: var(--surface-color);
   padding: 15px;
   border-radius: 5px;
   margin-bottom: 10px;
-  border-left: 4px solid #e50914;
+  border-left: 4px solid var(--primary-color);
+}
+
+/* --- Galería Secundaria (Vista de Detalles) --- */
+.gallery-images {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+}
+
+.gallery-images img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+  transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
 /* --- Clon de Animación --- */
@@ -259,7 +286,7 @@ body {
   background-position: center;
   z-index: 200;
   border-radius: 10px;
-  border: 0px solid #f5f5f5;
+  border: 0px solid var(--text-color);
   transition: all 600ms cubic-bezier(0.4, 0, 0.2, 1); /* Transición suave para todas las propiedades */
   filter: grayscale(0%) opacity(1);
 }
@@ -283,31 +310,42 @@ body {
 
 .intro-content {
   max-width: 800px;
-  background-color: rgba(20, 20, 20, 0.7);
+  background-color: var(--surface-color);
   padding: 30px;
   border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid var(--border-color);
 }
 
 .intro-content h1 {
   font-size: 2.8rem;
-  color: #f5f5f5;
+  color: var(--text-color);
   text-align: center;
   margin-bottom: 25px;
 }
 
 .intro-image {
   width: 100%;
+  max-width: 400px; /* Limita el ancho del logo en la página de introducción */
+  display: block;
+  margin: 0 auto 25px auto; /* Centra el logo */
   border-radius: 8px;
-  margin-bottom: 25px;
   object-fit: cover;
+}
+
+/* Estilo específico para la imagen de perfil (PFP) en las páginas de introducción/autor */
+.intro-image--pfp {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%; /* La hace circular */
+  border: 4px solid var(--text-color);
 }
 
 .intro-content p {
   font-size: 1.1rem;
   line-height: 1.7;
-  color: #ccc;
+  color: var(--text-color-secondary);
   margin-bottom: 1.5rem;
+  text-align: justify;
 }
 /* --- Diseño Responsivo --- */
 

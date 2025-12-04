@@ -311,6 +311,24 @@ document.addEventListener('DOMContentLoaded', () => {
     hideCharacterView();
   });
 
+  // Añade un listener para la tecla 'Escape' para cerrar la vista de detalles.
+  document.addEventListener('keydown', (event) => {
+    // Comprueba si la tecla presionada es 'Escape' y si la vista de detalles está activa.
+    if (event.key === 'Escape' && characterView.classList.contains('active')) {
+      // Llama a la función para ocultar la vista de detalles.
+      hideCharacterView();
+    }
+  });
+
+  // Comprueba si hay un 'hash' en la URL al cargar la página.
+  // Esto permite enlazar directamente a la vista de un personaje.
+  const initialChar = window.location.hash.substring(1);
+  if (initialChar && characterData[initialChar]) {
+    // Se usa un pequeño retraso para asegurar que todo esté cargado y la animación sea fluida.
+    setTimeout(() => populateAndShowView(initialChar), 500);
+  }
+
+
   /**
    * Oculta la vista de detalles del personaje con una animación inversa.
    * La imagen del perfil (PFP) se anima de vuelta a su posición en la cuadrícula.
