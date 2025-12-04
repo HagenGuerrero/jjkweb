@@ -1,5 +1,6 @@
 /* --- Estilos Generales y Fondo --- */
 body {
+  padding-top: 56px; /* Ajuste para la barra de navegación fija de Bootstrap */
   position: relative;
   overflow-x: hidden;
   color: #eee;
@@ -267,6 +268,46 @@ body {
 .character-content.reveal .character-header,
 .character-content.reveal .character-section {
   opacity: 1;
+}
+
+/* --- Estilos para la Página de Introducción --- */
+.intro-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px 20px;
+  min-height: calc(
+    100vh - 56px
+  ); /* Altura completa menos la barra de navegación */
+}
+
+.intro-content {
+  max-width: 800px;
+  background-color: rgba(20, 20, 20, 0.7);
+  padding: 30px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.intro-content h1 {
+  font-size: 2.8rem;
+  color: #f5f5f5;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.intro-image {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 25px;
+  object-fit: cover;
+}
+
+.intro-content p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #ccc;
+  margin-bottom: 1.5rem;
 }
 /* --- Diseño Responsivo --- */
 

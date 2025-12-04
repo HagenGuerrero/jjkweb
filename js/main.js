@@ -62,11 +62,11 @@ const characterData = {
     description: 'Un hechicero de jujutsu de grado 2 y estudiante de primer año en la Preparatoria de Jujutsu de Tokio. Como descendiente de la familia Zenin, heredó la preciada Técnica de Diez Sombras del clan. Megumi es estoico y calculador, deseando ayudar a las personas que considera buenas o amables.',
     abilities: [
       '<strong>Técnica de Diez Sombras (十種影法術, Tokusa no Kage Bōjutsu):</strong> Una técnica heredada que permite al usuario invocar y controlar hasta diez shikigamis diferentes desde las sombras.',
-      '<strong>Perros Divinos (玉犬, Gyokuken):</strong> Un par de lobos que rastrean y devoran maldiciones.',
-      '<strong>Nue (鵺):</strong> A flying shikigami that can deliver electric shocks.',
-      '<strong>Elefante Máximo (満象, Banshō):</strong> Un elefante masivo que puede aplastar oponentes o liberar grandes cantidades de agua de su trompa.',
+      '<strong>Perros Divinos (玉犬, Gyokuken):</strong> Un par de lobos shikigami que rastrean y devoran maldiciones.',
+      '<strong>Nue (鵺):</strong> Un shikigami volador que puede lanzar descargas eléctricas.',
+      '<strong>Elefante Máximo (満象, Banshō):</strong> Un elefante masivo que puede aplastar oponentes o liberar grandes cantidades de agua desde su trompa.',
     ],
-    domainExpansion: '<strong>Jardín de Sombras Quimera (嵌合暗翳庭, Kangō An\'eitei):</strong> Un dominio lleno de líquido que le permite a Megumi invocar múltiples shikigamis y manipular sombras a gran escala.',
+    domainExpansion: '<strong>Jardín de Sombras Quimera (嵌合暗翳庭, Kangō An\'eitei):</strong> Un dominio inundado de sombras líquidas que le permite a Megumi invocar múltiples shikigamis y manipular las sombras a su antojo.',
     curiosities: 'Es el hijo de Toji Fushiguro, el "Asesino de Hechiceros". Sukuna ha tomado un interés especial en el potencial de Megumi.',
     gallery: [
       './img/megumi_2.webp',
@@ -80,7 +80,7 @@ const characterData = {
     description: 'Una hechicera de jujutsu de grado 3 y estudiante de primer año en la Preparatoria de Jujutsu de Tokio. Nobara es una joven segura de sí misma y audaz con una convicción inquebrantable. Vino a Tokio para escapar de su vida rural y vivir fiel a sí misma.',
     abilities: [
       '<strong>Técnica de Muñeco de Paja (芻霊呪法, Sūrei Juhō):</strong> La técnica innata de Nobara que implica el uso de un martillo, clavos y un muñeco de paja para atacar a sus oponentes a distancia.',
-      '<strong>Resonancia (共鳴り, Tomonari):</strong> Al colocar una parte de su objetivo (como una gota de sangre) en su muñeco de paja, puede atacar directamente los puntos vitales del objetivo.',
+      '<strong>Resonancia (共鳴り, Tomonari):</strong> Al clavar una parte del objetivo (como una gota de sangre) en su muñeco de paja, puede atacar directamente los puntos vitales del cuerpo original.',
       '<strong>Horquilla (簪, Kanzashi):</strong> Una aplicación de su técnica donde detona energía maldita en clavos que ha clavado en objetos.',
     ],
     domainExpansion: null,
@@ -97,11 +97,11 @@ const characterData = {
     description: 'El protagonista de la precuela, Jujutsu Kaisen 0. Yuta es uno de los cuatro únicos hechiceros de grado especial. Una vez fue atormentado por el espíritu maldito de su amiga de la infancia, Rika Orimoto. Es humilde y amable, pero un oponente aterrador cuando se enoja.',
     abilities: [
       '<strong>Rika:</strong> La "Reina de las Maldiciones", un poderoso espíritu maldito que sirve a Yuta. Puede almacenar energía y herramientas malditas para él.',
-      '<strong>Inmensa Energía Maldita:</strong> Yuta tiene una de las mayores reservas de energía maldita de la serie, incluso mayor que la de Satoru Gojo.',
-      '<strong>Copiar:</strong> La técnica innata de Yuta le permite copiar las técnicas malditas de otros bajo ciertas condiciones.',
+      '<strong>Energía Maldita Inmensa:</strong> Yuta posee una de las reservas de energía maldita más grandes de la serie, superando incluso a la de Satoru Gojo.',
+      '<strong>Copiar:</strong> La técnica innata de Yuta le permite copiar las técnicas malditas de otros bajo ciertas condiciones aún no reveladas del todo.',
       '<strong>Técnica de Maldición Inversa:</strong> Puede emitir energía maldita inversa para curar a otros.',
     ],
-    domainExpansion: '<strong>Amor Mutuo y Verdadero:</strong> La Expansión de Dominio de Yuta. Sus efectos completos son actualmente desconocidos, pero es increíblemente poderosa.',
+    domainExpansion: '<strong>Amor Mutuo y Verdadero:</strong> La Expansión de Dominio de Yuta. Sus efectos completos son actualmente desconocidos, pero se sabe que es increíblemente poderosa.',
     curiosities: 'Es un pariente lejano del clan Gojo. Pasó varios años en el extranjero después de los eventos de JJK 0, entrenando en África.',
     gallery: [
       './img/yuta_2.webp',
@@ -115,7 +115,7 @@ const characterData = {
     description: 'Una estudiante de la Preparatoria de Jujutsu de Tokio que nació en el clan de élite Zenin pero con muy poca energía maldita. Compensa esto con una destreza física sobrehumana debido a una Restricción Celestial, lo que la convierte en una maestra de las herramientas malditas.',
     abilities: [
       '<strong>Restricción Celestial:</strong> A cambio de casi nada de energía maldita, posee una fuerza, velocidad y agilidad sobrehumanas, a la par de Toji Fushiguro.',
-      '<strong>Maestra Especialista en Armas:</strong> Es experta en una amplia variedad de herramientas y armas malditas.',
+      '<strong>Maestra de Armas:</strong> Es experta en una amplia variedad de herramientas y armas malditas.',
       '<strong>Hueso de Dragón:</strong> Una poderosa herramienta maldita que adquirió que puede almacenar y liberar energía cinética.',
     ],
     domainExpansion: null,
@@ -132,7 +132,7 @@ const characterData = {
     description: 'Conocido como el "Asesino de Hechiceros", Toji fue un exmiembro del clan Zenin que no poseía energía maldita en absoluto. Esta Restricción Celestial le otorgó habilidades físicas sobrehumanas, permitiéndole rivalizar e incluso derrotar a hechiceros de grado especial.',
     abilities: [
       '<strong>Restricción Celestial Total:</strong> Su completa falta de energía maldita resultó en un físico sumamente perfeccionado, otorgándole una inmensa velocidad, fuerza y sentidos.',
-      '<strong>Maestro Especialista en Armas:</strong> Era un experto en el uso de una amplia gama de herramientas malditas, que almacenaba en un espíritu maldito.',
+      '<strong>Maestro de Armas:</strong> Era un experto en el uso de una amplia gama de herramientas malditas, las cuales almacenaba dentro de un espíritu maldito que lo acompañaba.',
       '<strong>Lanza Invertida del Cielo:</strong> Una herramienta maldita de grado especial que puede anular cualquier técnica maldita.',
     ],
     domainExpansion: null,
@@ -146,15 +146,15 @@ const characterData = {
     name: 'Aoi Todo',
     mainImg: './img/todo.webp',
     epithet: 'El Maestro del Boogie Woogie',
-    description: 'Un estudiante de tercer año de la Preparatoria de Jujutsu de Kioto y un hechicero de jujutsu de grado 1. Es excepcionalmente fuerte y tiene una personalidad excéntrica. Juzga a los hombres por su gusto en las mujeres y rápidamente se hace amigo de Yuji Itadori, considerándolo su "mejor amigo". A pesar de su comportamiento bullicioso y aparentemente brutal, es un estratega brillante y un luchador poderoso. [1, 2, 4]',
+    description: 'Un estudiante de tercer año de la Preparatoria de Jujutsu de Kioto y un hechicero de grado 1. Es excepcionalmente fuerte y tiene una personalidad excéntrica. Juzga a los hombres por su tipo de mujer ideal y rápidamente se hace amigo de Yuji Itadori, a quien considera su "mejor amigo". A pesar de su comportamiento ruidoso, es un estratega brillante.',
     abilities: [
-      '<strong>Boogie Woogie (不義遊戯, Bugi Ugi):</strong> La técnica maldita innata de Todo le permite intercambiar las posiciones de cualquier cosa con un cierto nivel de energía maldita al aplaudir. Puede intercambiarse con un aliado, un enemigo o incluso intercambiar a otras dos personas u objetos. [1, 5]',
-      '<strong>Destreza Física Sobrehumana:</strong> Todo posee una inmensa fuerza física y velocidad, prefiriendo abrumar a los oponentes en combate cuerpo a cuerpo. [1]',
-      '<strong>Control de Energía Maldita:</strong> Tiene una gran cantidad de energía maldita y un control experto sobre ella, que utiliza para mejorar sus ataques físicos. [1]',
-      '<strong>Dominio Simple:</strong> Puede crear un Dominio Simple para contrarrestar el efecto de golpe seguro de la Expansión de Dominio de un oponente. [1]',
+      '<strong>Boogie Woogie (不義遊戯, Bugi Ugi):</strong> La técnica innata de Todo le permite intercambiar las posiciones de cualquier cosa con energía maldita con solo aplaudir. Puede intercambiarse a sí mismo con un aliado, un enemigo, o incluso intercambiar a otras dos personas.',
+      '<strong>Fuerza Física Sobresaliente:</strong> Todo posee una inmensa fuerza física y velocidad, prefiriendo el combate cuerpo a cuerpo.',
+      '<strong>Gran Control de Energía Maldita:</strong> Tiene una gran cantidad de energía maldita y un control experto sobre ella, usándola para reforzar sus ataques físicos.',
+      '<strong>Dominio Simple:</strong> Puede crear un Dominio Simple para contrarrestar el efecto de golpe seguro de la Expansión de Dominio de un oponente.',
     ],
     domainExpansion: null,
-    curiosities: 'Es un gran fan de la idol Nobuko Takada (Takada-chan) y a menudo imagina escenarios que la involucran. [1, 8] Tiene una cicatriz en la cara de su entrenamiento con Yuki Tsukumo. [1] Afirma tener un coeficiente intelectual de 530,000. [1]',
+    curiosities: 'Es un gran fan de la idol Nobuko Takada (Takada-chan). Tiene una cicatriz en la cara que obtuvo durante su entrenamiento con la hechicera de grado especial Yuki Tsukumo. Afirma tener un coeficiente intelectual de 530,000.',
     gallery: [
       './img/todo_2.webp',
       './img/todo_3.webp',
@@ -167,7 +167,7 @@ const characterData = {
     description: 'El mayor de las Pinturas de la Muerte del Vientre Maldito, Choso es un espíritu maldito de grado especial que considera a Yuji Itadori su hermano menor debido a una conexión de sangre compartida a través de Kenjaku. Es un luchador tranquilo y analítico.',
     abilities: [
       '<strong>Manipulación de Sangre (赤血操術, Sekketsu Sōjutsu):</strong> Una técnica heredada que le permite controlar y dar forma a su propia sangre. No está limitado por la pérdida de sangre debido a su naturaleza como maldición.',
-      '<strong>Sangre Perforante (穿血, Senketsu):</strong> Comprime la sangre hasta su límite y la dispara como un rayo láser de alta presión.',
+      '<strong>Sangre Perforante (穿血, Senketsu):</strong> Comprime su sangre hasta el límite y la dispara como un rayo láser de alta presión.',
       '<strong>Supernova (超新星, Chōshinsei):</strong> Detona múltiples orbes de sangre alrededor de un oponente en una explosión similar a una escopeta.',
     ],
     domainExpansion: null,
@@ -184,7 +184,7 @@ const characterData = {
     description: 'Un ex hechicero de grado especial y compañero de clase de Satoru Gojo. Geto desarrolló un profundo odio por los no hechiceros, a quienes llamaba "monos", lo que lo llevó a convertirse en un usuario de maldiciones con el objetivo de crear un mundo solo para hechiceros. Es el principal antagonista de la precuela, Jujutsu Kaisen 0.',
     abilities: [
       '<strong>Manipulación de Espíritus Malditos:</strong> La técnica innata de Geto le permite capturar y controlar espíritus malditos después de derrotarlos. Puede invocar una gran cantidad de maldiciones para abrumar a sus oponentes.',
-      '<strong>Máximo: Uzumaki:</strong> La máxima expresión de su técnica, que combina todos sus espíritus malditos en un solo ataque de energía maldita superconcentrada.',
+      '<strong>Máximo: Uzumaki:</strong> La máxima expresión de su técnica, que combina una gran cantidad de sus espíritus malditos en un solo ataque de energía maldita superconcentrada.',
       '<strong>Maestro en Combate Cuerpo a Cuerpo:</strong> A pesar de su técnica basada en la invocación, Geto es un luchador físico excepcionalmente hábil, capaz de enfrentarse a otros hechiceros de alto nivel.',
       '<strong>Herramienta Maldita: Nube Itinerante (Playful Cloud):</strong> Un bastón de tres secciones de grado especial que contiene un poder físico puro, que Geto utilizaba con gran habilidad.',
     ],
