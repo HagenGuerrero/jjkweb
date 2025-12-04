@@ -195,16 +195,101 @@ const characterData = {
       './img/geto_3.webp',
     ],
   },
+  nanami: {
+    name: 'Kento Nanami',
+    mainImg: './img/nanami.webp',
+    epithet: 'El Hechicero Asalariado',
+    description: 'Un hechicero de Grado 1 y mentor de Yuji Itadori. Nanami es un hombre pragmático y serio que una vez dejó el mundo del jujutsu para convertirse en un oficinista, solo para regresar después de darse cuenta de que su verdadera vocación era salvar a la gente. Valora las reglas y la eficiencia por encima de todo. [3]',
+    abilities: [
+      '<strong>Técnica de Proporción (十劃呪法, Tōkaku Juhō):</strong> Su técnica innata le permite crear puntos débiles en cualquier objetivo al dividirlo forzadamente en una proporción de 7:3. Golpear este punto garantiza un golpe crítico. [3]',
+      '<strong>Voto Vinculante: Tiempo Extra (時間外労働, Jikangairōdō):</strong> Un voto que restringe su energía maldita durante sus "horas de trabajo". Una vez que entra en "tiempo extra", su poder aumenta considerablemente. [1]',
+      '<strong>Colapso:</strong> Una técnica de extensión que le permite crear un gran punto débil en el entorno y destruirlo.',
+    ],
+    domainExpansion: null,
+    curiosities: 'A pesar de su exterior estoico, se preocupa profundamente por sus aliados, especialmente por Yuji. Su muerte a manos de Mahito durante el Incidente de Shibuya es uno de los momentos más impactantes de la serie. [1]',
+    gallery: [
+      './img/nanami_2.webp',
+      './img/nanami_3.webp',
+    ],
+  },
+  mahito: {
+    name: 'Mahito',
+    mainImg: './img/mahito.webp',
+    epithet: 'La Maldición de la Transfiguración',
+    description: 'Un espíritu maldito de grado especial nacido del odio y el miedo de los humanos hacia otros humanos. Mahito es sádico, inmaduro y disfruta jugando con las vidas humanas. Su filosofía se centra en que el alma precede al cuerpo, lo que le da una perspectiva aterradora sobre la vida y la muerte. [1, 9]',
+    abilities: [
+      '<strong>Transfiguración Ociosa (無為転変, Mui Tenpen):</strong> Su técnica le permite tocar el alma de una persona y remodelarla, alterando su cuerpo de formas grotescas o matándola instantáneamente. También puede curarse a sí mismo y cambiar su propia forma. [1, 20]',
+      '<strong>Multiplicidad de Almas:</strong> Puede fusionar almas transfiguradas para crear ataques más complejos.',
+      '<strong>Cuerpo Espiritual Instantáneo de Asesinato Distorsionado:</strong> Una forma poderosa y aerodinámica que aumenta drásticamente su velocidad y poder de ataque.',
+    ],
+    domainExpansion: '<strong>Encarnación Propia de la Perfección (自閉円頓裹, Jihei Endonka):</strong> Dentro de su dominio, su técnica de Transfiguración Ociosa se aplica a cualquiera atrapado, garantizando un golpe mortal. [1]',
+    curiosities: 'Es el archienemigo de Yuji Itadori, ya que Yuji es una de las pocas personas que puede dañar directamente su alma. Mahito es responsable de la muerte de Kento Nanami y Junpei Yoshino, y de dejar a Nobara Kugisaki en coma. [1]',
+    gallery: [
+      './img/mahito_2.webp',
+      './img/mahito_3.webp',
+    ],
+  },
+  hakari: {
+    name: 'Kinji Hakari',
+    mainImg: './img/hakari.webp',
+    epithet: 'El Apostador Imparable',
+    description: 'Un estudiante de tercer año de la Preparatoria de Jujutsu de Tokio, actualmente suspendido. Hakari dirige un club de lucha clandestino. Es considerado por Satoru Gojo como uno de los estudiantes con el potencial de superarlo. Es un individuo seguro de sí mismo y amante del riesgo, cuya técnica se basa en la suerte. [1, 7]',
+    abilities: [
+      '<strong>Energía Maldita Aspera:</strong> La energía maldita de Hakari tiene una textura "áspera" o "rugosa", lo que hace que sus golpes sean particularmente dolorosos y dañinos.',
+      '<strong>Maestro del Combate Cuerpo a Cuerpo:</strong> Es un luchador físico extremadamente hábil, capaz de enfrentarse a oponentes de alto nivel sin depender de su técnica.',
+    ],
+    domainExpansion: '<strong>Atraco Ocioso de la Muerte (坐殺博徒, Zasatsu Bakuto):</strong> Su dominio se manifiesta como un juego de pachinko con temática de romance. Si Hakari saca el "premio gordo" (con una probabilidad de 1/239), obtiene 4 minutos y 11 segundos de energía maldita infinita, lo que le permite usar la técnica de maldición inversa de forma automática e inconsciente, volviéndolo efectivamente inmortal durante ese tiempo. [1, 13]',
+    curiosities: 'Debido a que su dominio es inofensivo para el oponente (solo le bombardea con las reglas del juego), puede activarlo repetidamente. Su racha de suerte lo convierte en uno de los hechiceros más formidables en combate prolongado.',
+    gallery: [
+      './img/hakari_2.webp',
+      './img/hakari_3.webp',
+    ],
+  },
+  kenjaku: {
+    name: 'Kenjaku',
+    mainImg: './img/kenjaku.webp',
+    epithet: 'El Titiritero Milenario',
+    description: 'Un antiguo y malvado hechicero que ha vivido durante más de mil años utilizando su técnica innata para trasplantar su cerebro a diferentes cuerpos y apoderarse de ellos. Actualmente ocupa el cuerpo de Suguru Geto. Es el cerebro detrás de la mayoría de los eventos catastróficos de la serie. [2, 9]',
+    abilities: [
+      '<strong>Trasplante Cerebral:</strong> Su técnica innata le permite sobrevivir a la muerte y tomar el control de otros cuerpos, obteniendo acceso a sus recuerdos y técnicas malditas. [2]',
+      '<strong>Manipulación de Espíritus Malditos:</strong> Al estar en el cuerpo de Geto, puede usar su técnica para controlar maldiciones que ha absorbido. [2]',
+      '<strong>Técnicas Múltiples:</strong> Ha acumulado varias técnicas a lo largo de los siglos, incluyendo la antigravedad de la madre de Yuji, Kaori Itadori. [2]',
+      '<strong>Máximo: Uzumaki:</strong> La técnica definitiva de la Manipulación de Espíritus Malditos, que combina una gran cantidad de maldiciones en un ataque de energía superconcentrada.',
+    ],
+    domainExpansion: '<strong>Útero Profuso (胎蔵遍野, Taizō Hen\'ya):</strong> Una expansión de dominio que se manifiesta como un pilar de rostros retorcidos y no tiene una barrera, similar al Santuario Malévolo de Sukuna.',
+    curiosities: 'Kenjaku es técnicamente la "madre" de Yuji Itadori, ya que dio a luz a Yuji mientras poseía el cuerpo de Kaori Itadori. Su objetivo final es "optimizar" la energía maldita en todo Japón, forzando la evolución de la humanidad al fusionar a todos los no hechiceros con Tengen. [2]',
+    gallery: [
+      './img/kenjaku_2.webp',
+      './img/kenjaku_3.webp',
+    ],
+  },
+  uraume: {
+    name: 'Uraume',
+    mainImg: './img/uraume.webp',
+    epithet: 'La Estrella Congelada',
+    description: 'Un usuario de maldiciones que ha vivido durante más de mil años y es un subordinado directo y leal de Ryomen Sukuna. [1, 7] Uraume es una figura misteriosa y poderosa, a menudo vista al lado de Sukuna. También es un excelente cocinero, una de las razones por las que Sukuna le mantiene cerca. [2]',
+    abilities: [
+      '<strong>Formación de Hielo (氷凝呪法, Hikori Juhō):</strong> La técnica maldita de Uraume le permite crear y manipular enormes cantidades de hielo. [1] Este poder es lo suficientemente fuerte como para congelar a grandes grupos de personas al instante. [1]',
+      '<strong>Técnica de Maldición Inversa:</strong> Es capaz de utilizar la Técnica de Maldición Inversa para curarse a sí mismo. [1]',
+      '<strong>Calma Muerta:</strong> Considerada la cima del Jujutsu de Hielo, utiliza energía maldita helada en lugar de hielo real para congelar a sus objetivos. [5]',
+    ],
+    domainExpansion: null,
+    curiosities: 'Uraume ha servido a Sukuna desde la era Heian, hace más de 1,000 años, y su lealtad es absoluta. [2, 7] Sukuna le considera un aliado. [1] Tras la muerte de Sukuna, Uraume se quita la vida. [1]',
+    gallery: [
+      './img/uraume_2.webp',
+      './img/uraume_3.webp',
+    ],
+  },
 };
 
 // Se ejecuta cuando el contenido del DOM ha sido completamente cargado y parseado.
 document.addEventListener('DOMContentLoaded', () => {
   // Selección de elementos clave del DOM que se usarán en el script.
-  const imgBoxes = document.querySelectorAll('.img-box');
   const characterView = document.getElementById('character-view');
   const closeBtn = document.querySelector('.character-view-close');
   const body = document.body;
 
+  const imgBoxes = document.querySelectorAll('.img-box');
   // Itera sobre cada 'caja de imagen' de personaje en la cuadrícula principal.
   imgBoxes.forEach((box) => {
     const charKey = box.dataset.character;
